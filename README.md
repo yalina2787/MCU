@@ -6,7 +6,7 @@
 void setup() {
   pinMode(13, OUTPUT);
   pinMode(2, INPUT);
-} // choose input & output pin, don't chose V1n pin (this pin has 12 Voltage, too high)
+}                      // choose input & output pin, don't chose V1n pin (this pin has 12 Voltage, too high)
 
 void loop() {
 
