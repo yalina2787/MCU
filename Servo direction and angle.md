@@ -1,4 +1,4 @@
-# Set an auto change direction for servo
+# Set an auto change directions for servo
 
 ## Dec 23 2020
 
