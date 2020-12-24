@@ -5,8 +5,8 @@
 
 ```
 void setup() {
-  pinMode(13, OUTPUT);
-  pinMode(2, INPUT);
+  pinMode(13, OUTPUT); // the 13th pin connects to the LED light;
+  pinMode(2, INPUT);   // choose 2th pin for the current voltage input;
 }                      // choose input & output pin, don't chose V1n pin (this pin has 12 Voltage, too high)
 
 void loop() {
@@ -14,9 +14,9 @@ void loop() {
   int btn = digitalRead(2);
   
   if (btn == HIGH){
-    digitalWrite(13, HIGH);
+    digitalWrite(13, HIGH); // the 13th pin get high current voltage after excuting this line;
     delay(500);
-    digitalWrite(13, LOW);
+    digitalWrite(13, LOW); //the 13th pin get low current voltage after excuting this line;
     delay(200);
     digitalWrite(13, HIGH);
     delay(500);
@@ -25,7 +25,7 @@ void loop() {
     digitalWrite(13, HIGH);
     delay(500);
     digitalWrite(13, LOW);
-    delay(2000);
+    delay(2000); //stop for 2 seconds;
   }else{
     digitalWrite(13, LOW);
   }                             // control LED light
