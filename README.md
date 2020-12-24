@@ -1,4 +1,4 @@
-# MCU 单片机学习
+# MCU with raspberrypi 单片机学习
 
 ## Dec 23 ～
 
