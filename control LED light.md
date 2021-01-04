@@ -7,7 +7,7 @@
 
 ```
 void setup() {
-  pinMode(13, OUTPUT); // the 13th pin connects to the LED light;
+  pinMode(13, OUTPUT); // the 13th pin connects to the LED light; sets the digital pin as output
   pinMode(2, INPUT);   // choose 2th pin for the current voltage input;
 }                      // choose input & output pin, don't chose V1n pin (this pin has 12 Voltage, too high)
 
