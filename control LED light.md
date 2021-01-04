@@ -16,9 +16,9 @@ void loop() {
   int btn = digitalRead(2);
   
   if (btn == HIGH){
-    digitalWrite(13, HIGH); // the 13th pin get high current voltage after excuting this line;
+    digitalWrite(13, HIGH); // the 13th pin get high current voltage after excuting this line; sets the LED on.
     delay(500);
-    digitalWrite(13, LOW); //the 13th pin get low current voltage after excuting this line;
+    digitalWrite(13, LOW); //the 13th pin get low current voltage after excuting this line; sets the LED off.
     delay(200);
     digitalWrite(13, HIGH);
     delay(500);
